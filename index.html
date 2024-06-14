@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Stopwatch</title>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <!-- Own Css -->
+        <link rel="stylesheet" href="Css/Css.css"/>
+    </head>
+    <body>
+        <div class="card">
+            <div class="section">
+                <div class="photo_frame">
+                    <div class="display">
+                        <p class="display_time"></p>
+                    </div>               
+                </div>
+                <div class="action_button">
+                    <button class="btn_type" id="stop" title="reset"><i class='bx bx-reset'></i></button>
+                    <button class="btn_type" id="start" title="start"><i class='bx bx-play' ></i></button>
+                    <button class="btn_type" id="pause" title="pause"><i class='bx bx-pause'></i></button>
+                    <button class="btn_type" id="laps" title="laps"><i class='bx bx-loader'></i></button>
+                </div>
+            </div>
+            <div class="section section_content">
+                <div class="content_title">
+                    <h3 class="content_heading">Laps Times</h3>
+                    <div class="content_box">
+                        <ul></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="Js/Js.js"></script>
+    </body>
+</html>
